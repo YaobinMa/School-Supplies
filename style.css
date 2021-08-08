@@ -403,6 +403,30 @@ and then using transform translate to center the text  */
         top:1%;
         font-size:38px;
     }
+
+    .cart-price-text{
+        font-size:18px;
+        transform:translate(-50%,-70%)
+    }
+
+    .cart-price{
+        font-size:18px;
+        transform:translate(-50%,-155%)
+    }
+
+    .cart-title{
+        font-size:30px;
+        transform:translate(-50%,0%)
+    }
+
+    .cart-container{
+        transform:translate(-50%, -52%)
+    }
+
+    #checkout{
+        top:101.5%;
+    }
+
 }
 
 
