@@ -126,13 +126,7 @@ function addToCart(event){
 
         changePrice(event)
     }
-    else{
-        //need fixing, right now only changing quantity of first item
-        let numOfProduct = document.querySelector(".numInput")
-        numOfProduct.value++
-        event.currentTarget.dataset.quantity++
-        changePrice();
-    }
+    
 }
 
 // change price

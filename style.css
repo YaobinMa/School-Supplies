@@ -3,6 +3,7 @@
     padding:0px;
     margin:0px;
     overflow-x: hidden;  
+    
 }
 
 
@@ -427,6 +428,7 @@ and then using transform translate to center the text  */
         top:101.5%;
     }
 
+    
 }
 
 
@@ -464,14 +466,16 @@ and then using transform translate to center the text  */
     margin:10px;
     background-color:rgb(134, 134, 146);  
     border-radius:25px;
-    padding:10px; 
-    
+    padding:50px; 
+    overflow-y: hidden;
 }
 
 .item-img{
     max-width:100%;
-    height:400px;
+    height:350px;
+    
     object-fit: cover;
+    
 }
 
 /* could specify .item-text but this is a small project, no need */
@@ -626,5 +630,9 @@ h2, h4{
     
     .contact-text{
         padding:10px 5px;
+    }
+
+    .cartTitle{
+        font-size: 25px;
     }
 }    
